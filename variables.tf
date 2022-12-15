@@ -230,14 +230,7 @@ variable "VERIFICATION_MESSAGE_TEMPLATE" {
     }
     )
   )
-  default = [{
-    default_email_option  = null
-    email_message         = null
-    email_message_by_link = "{##Click Here##}"
-    email_subject         = "test"
-    email_subject_by_link = "test"
-    sms_message           = null
-  }]
+  default = []
 }
 
 variable "TAGS" {
